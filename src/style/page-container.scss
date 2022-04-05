@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-page {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.button-page .input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: .1s;
+   
+    height: 40px;
+    width: 100px;
+}
+
+.button-page .input-wrapper h1 span {
+    letter-spacing: -22px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    padding: 0px 50px;
+}
